@@ -1,0 +1,23 @@
+{
+  "name": "@raegon/event-dispatcher",
+  "version": "1.0.0",
+  "description": "Front-End Kernel for Javascript",
+  "main": "src/main.ts",
+  "scripts": {
+    "test": "npx tsc && node dist/test/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nkamuo/event-dispatcher.git"
+  },
+  "keywords": [
+    "di",
+    "js"
+  ],
+  "author": "Callistus Nkamuo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nkamuo/event-dispatcher/issues"
+  },
+  "homepage": "https://github.com/nkamuo/event-dispatcher#readme"
+}

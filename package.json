@@ -1,23 +1,30 @@
 {
-  "name": "@raegon/event-dispatcher",
+  "name": "@raegon/cqrs-saga",
   "version": "1.0.0",
-  "description": "Front-End Kernel for Javascript",
+  "description": "A command query responsibility segregation (CQRS) and saga pattern implementation for javascript",
   "main": "src/main.ts",
   "scripts": {
     "test": "npx tsc && node dist/test/main.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nkamuo/event-dispatcher.git"
+    "url": "git+https://github.com/nkamuo/cqrs-saga.git"
   },
   "keywords": [
-    "di",
-    "js"
+    "cqrs",
+    "saga",
+    "redux",
+    "redux-saga"
   ],
   "author": "Callistus Nkamuo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nkamuo/event-dispatcher/issues"
+    "url": "https://github.com/nkamuo/cqrs-saga/issues"
   },
-  "homepage": "https://github.com/nkamuo/event-dispatcher#readme"
+  "homepage": "https://github.com/nkamuo/cqrs-saga#readme",
+  "dependencies": {
+    "@raegon/dependency-injection": "github:nkamuo/dependency-injection#master",
+    "@reduxjs/toolkit": "^2.0.1",
+    "redux-saga": "^1.3.0"
+  }
 }

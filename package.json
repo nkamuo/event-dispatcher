@@ -1,5 +1,5 @@
 {
-  "name": "@raegon/cqrs-saga",
+  "name": "@raegon/event-dispatcher",
   "version": "1.0.0",
   "description": "A command query responsibility segregation (CQRS) and saga pattern implementation for javascript",
   "main": "src/main.ts",

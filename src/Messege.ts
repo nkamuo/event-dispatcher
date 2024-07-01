@@ -1,13 +1,11 @@
-import { Constructor } from "vue/types/options";
-
 
 type StampIdentity = (string);
 
 type StampConstructor = {
     identity: StampIdentity;
     new(...args: any[]): Stamp;
-}'
-'
+}
+
 export class Stamp{
 
     // public id: string;

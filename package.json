@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/nkamuo/cqrs-saga#readme",
   "dependencies": {
-    "@raegon/dependency-injection": "github:nkamuo/dependency-injection#master",
+    "@raegon/dependency-injection": "github:nkamuo/dependency-injection",
     "@reduxjs/toolkit": "^2.0.1",
     "redux-saga": "^1.3.0"
   }

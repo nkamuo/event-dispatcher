@@ -21,7 +21,7 @@ export class RegisterListenersPass implements CompilerPass
     public  constructor(dispatcherService = 'event_dispatcher', listenerTag = 'kernel.event_listener', subscriberTag = 'kernel.event_subscriber', eventAliasesParameter = 'event_dispatcher.event_aliases')
     {
         if (0 < arguments.length) {
-            console.warn('raegon/event-dispatcher', '5.3', 'Configuring "%s" is deprecated.');
+            console.warn('raegon/event-dispatcher', '5.3', `Configuring "${this.constructor.name}" is deprecated.`);
         }
 
         this.dispatcherService = dispatcherService;

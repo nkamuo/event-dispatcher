@@ -9,7 +9,7 @@ export class AddEventAliasesPass implements CompilerPass
     public constructor(eventAliases: string[],eventAliasesParameter = 'event_dispatcher.event_aliases')
     {
         if (1 < arguments.length) {
-            console.warn('symfony/event-dispatcher', '5.3', `Configuring "${this.constructor.name}" is deprecated.`,);
+            console.warn('@raegon/event-dispatcher', '5.3', `Configuring "${this.constructor.name}" is deprecated.`,);
         }
 
         this.eventAliases = eventAliases;

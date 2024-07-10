@@ -1,4 +1,4 @@
-import {EmitteryEventDispatcher, EventDispatcher}  from "./Dispatcher";
+import {EmitteryEventDispatcher, type EventDispatcher}  from "./Dispatcher";
 
 
 function factory(...args: any[]){
@@ -6,7 +6,7 @@ function factory(...args: any[]){
 };
 
 export {
-    EventDispatcher,
+    type EventDispatcher,
     EmitteryEventDispatcher,
     factory,
 };
